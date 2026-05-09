@@ -1,0 +1,46 @@
+# 编译产物与构建目录
+build/
+build_out/
+dist/
+*.o
+*.so
+*.run
+*.a
+*.out
+*.whl
+*.egg-info
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE 与编辑器配置
+.codex
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PyTorch 源码目录（体积过大，约 2.1G）
+pytorch/
+
+# 备份目录
+backup/
+
+# 测试数据与图片
+data/
+
+# Profiler / 性能分析输出
+msprof_output/
+torch_npu_profiler_output/
+perf_summary_report_quick/
+export_only_prof_dir/
+extra-info/
+trace/
+
+# 自定义算子部署生成目录
+custom_opp/vendors/*/
+
+# 特定文件
+test/npu_custom_ops.cpython-311-aarch64-linux-gnu.so
